@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/AdamYang121/ReactStepUp#readme",
   "dependencies": {
+    "axios": "^0.16.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
