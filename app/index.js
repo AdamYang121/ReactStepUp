@@ -8,8 +8,6 @@ var App = require('./components/App');
 // life cycle event
 // UI
 
-
-
 ReactDOM.render(
 	<App />,
 	document.getElementById('app')

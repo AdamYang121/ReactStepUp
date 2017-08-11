@@ -40,8 +40,6 @@ class PlayerInput extends React.Component {
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
-
-
 	handleChange(event){
 		var value = event.target.value;
 
@@ -83,8 +81,6 @@ class PlayerInput extends React.Component {
 			</form>
 			)
 	}
-
-
 }
 
 PlayerInput.PropTypes = {
@@ -92,7 +88,6 @@ PlayerInput.PropTypes = {
 	label: PropTypes.string.isRequired,
 	onSubmit: PropTypes.func.isRequired
 }
-
 
 class Battle extends React.Component {
 	constructor(props){
@@ -180,6 +175,5 @@ class Battle extends React.Component {
 		)
 	}
 }
-
 
 module.exports = Battle;
