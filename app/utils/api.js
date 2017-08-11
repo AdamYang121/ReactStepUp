@@ -9,8 +9,3 @@ module.exports = {
 			});
 	}
 }
-
-// fetchPopularRepos('Java')
-// 	.then(function(res){
-
-// 	})

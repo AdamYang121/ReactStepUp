@@ -184,6 +184,7 @@ prevState =>({ count: prevState.count + 1})
  _setState() will tell React to rerender with the updated state, thus when not use setState() to update state, the view won't be update, thus it seems thats that it doesn't work_
 
 ```
+# Router DOM
 
 
 
