@@ -8,6 +8,7 @@ var Nav = require('./Nav');
 var Home = require('./Home');
 var Battle = require('./Battle');
 var Results = require('./Results') 
+var Todo = require('./Todo') 
 
 class App extends React.Component{
 	render(){
@@ -20,6 +21,7 @@ class App extends React.Component{
 					<Route exact path='/battle' component={Battle} />
 					<Route path='/battle/results' component={Results} />
 					<Route path='/popular' component={Popular} />
+					<Route path='/todo' component={Todo} />
 					<Route render={function(){
 						return <p>Oops! Wrong Place!</p>
 					}}/>
